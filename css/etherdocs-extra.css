@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'icomoon';
+  font-family: 'etherdocs-extra';
   src:  url('../fonts/etherdocs-extra.eot?');
   src:  url('../fonts/etherdocs-extra.eot#iefix') format('embedded-opentype'),
     url('../fonts/etherdocs-extra.ttf') format('truetype'),
@@ -11,7 +11,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'etherdocs-extra' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
