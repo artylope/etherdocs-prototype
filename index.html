@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -12,93 +13,104 @@
   <link rel="stylesheet" href="css/boxicons.css">
   <link rel="stylesheet" href="css/etherdocs-extra.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/landing.css">
 
 
 </head>
 
 <body>
-  <section id="toolbar">
-  <div class="left">
-    <div class="icon-group">
-    <div class="icon"><i class='bx bxs-save' title="Save Revision"></i></div>
-    <div class="icon"><i class='bx bx-undo' title="Undo"></i></div>
-    <div class="icon"><i class='bx bx-redo' title="Redo"></i></div>
-    <div class="icon"><i class='bx bxs-printer' title="Print"></i></div>
-    <div class="icon"><i class="icon-export-file" title="Export Document"></i></div>
-  </div>
-  <div class="icon-group">
-    <select>
-      <option value="style" disabled>Style</option>
-      <option value="normal">Normal</option>
-      <option value="heading1">Heading 1</option>
-      <option value="heading2">Heading 2</option>
-      <option value="heading3">Heading 3</option>
-      <option value="heading4">Heading 4</option>
-      <option value="heading5">Heading 5</option>
-      <option value="heading6">Heading 6</option>
-      <option value="code">Code</option>
-    </select>
-    <select>
-      <option value="arial">Arial</option>
-      <option value="timesnewroman">Times New Roman</option>
-      <option value="calibri">Calibri</option>
-      <option value="helvectica">Helvectica</option>
-      <option value="garamond">Garamond</option>
-    </select>
-     <select>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="11">11</option>
-      <option value="12">12</option>
-      <option value="14">14</option>
-      <option value="18">18</option>
-       <option value="24">24</option>
-       <option value="30">30</option>
-       <option value="36">36</option>
-       <option value="48">48</option>
-       <option value="60">24</option>
-       <option value="72">72</option>
-    </select>
-  </div>
-  <div class="icon-group">
-    <div class="icon"><i class='bx bx-bold' title="Bold"></i></div>
-    <div class="icon"><i class='bx bx-italic' title="Italic"></i></div>
-    <div class="icon"><i class='bx bx-underline' title="Underline"></i></div>
-    <div class="icon"><i class='bx bx-font-color' title="Font Color"></i></div>
-<!--     <div class="icon"><i class='bx bx-strikethrough'></i></div> -->
-  </div>
-  <div class="icon-group">
-    <div class="icon"><i class='bx bx-list-ul' title="Bulleted List"></i></div>
-    <div class="icon"><i class='bx bx-list-ol' title="Numbered List"></i></div>
-    <div class="icon"><i class="icon-indent-left" title="Decrease Indent"></i></div>
-    <div class="icon"><i class="icon-indent-right" title="Increase Indent"></i></div>
-  </div>
-  <div class="icon-group">
-    <div class="icon"><i class='bx bx-table' title="Add Table"></i></div>
-    <div class="icon"><i class='bx bxs-image' title="Add Image"></i></div>
-    <div class="icon"><i class="icon-hyperlink" title="Add Hyperlink"></i></div>
-  </div>
-      <div class="icon-group">
-    <div class="icon"><i class="icon-add-comment" title="Add Comment"></i></div>
-  </div>
-  </div>
+  <section id="intro">
+    <span>Etherdocs</span>
+    <h1>Real-Time Collaboration</h1>
+    <p>For content classified confidential and below</p>
+    <button> Create New Document </button>
+    <form>
+    <input placeholder="document-name"></input>
+    <button>Create</button>
+  </form>
+  </section>
 
-  <div class="right">
-       <div class="icon-group">
-      <div class="icon"><i class='bx bx-time' title="Timeslider"></i></div>
-   </div>
-    <div class="icon-group">
-      <div class="icon"><i class='bx bxs-user'></i></div>
-   </div>
-   <div class="icon-group">
-     <div class="icon"><i class='bx bxs-share-alt' title="Share Document"></i></div>
-      <div class="icon"><i class='bx bxs-cog'></i></div>
-   </div>
 
-</div>
-</section>
+  <section id="links">
+    <div class="links-table">
+      <div class="link-header-row">
+        <div class="link-header-document">
+          Document Name
+        </div>
+        <div class="link-header-last-modified">
+          Last Modified
+        </div>
+        <div class="link-header-action">
+          Actions
+        </div>
 
-<section id="document"></section>
+      </div>
+      <a class="link-row" href="pad.html">
+        <div class="link-document">
+          A generic document name
+        </div>
+        <div class="link-last-modified">
+          4 Mar 2018
+        </div>
+        <div class="link-action">
+          <button><i class='bx bx-link' title="Copy Link"></i></button>
+          <button><i class='bx bxs-trash-alt' title="Delete"></i></button>
+        </div>
+      </a>
+      <div class="link-row">
+        <div class="link-document">
+          A generic document name
+        </div>
+        <div class="link-last-modified">
+          4 Mar 2018
+        </div>
+        <div class="link-action">
+          <button><i class='bx bx-link' title="Copy Link"></i></button>
+          <button><i class='bx bxs-trash-alt' title="Delete"></i></button>
+        </div>
+      </div>
+      <div class="link-row">
+        <div class="link-document">
+          A generic document name
+        </div>
+        <div class="link-last-modified">
+          4 Mar 2018
+        </div>
+        <div class="link-action">
+          <button><i class='bx bx-link' title="Copy Link"></i></button>
+          <button><i class='bx bxs-trash-alt' title="Delete"></i></button>
+        </div>
+      </div>
+      <div class="link-row">
+        <div class="link-document">
+          A generic document name
+        </div>
+        <div class="link-last-modified">
+          4 Mar 2018
+        </div>
+        <div class="link-action">
+          <button><i class='bx bx-link' title="Copy Link"></i></button>
+          <button><i class='bx bxs-trash-alt' title="Delete"></i></button>
+        </div>
+      </div>
+      <div class="link-row">
+        <div class="link-document">
+          A generic document name
+        </div>
+        <div class="link-last-modified">
+          4 Mar 2018
+        </div>
+        <div class="link-action">
+          <button><i class='bx bx-link' title="Copy Link"></i></button>
+          <button><i class='bx bxs-trash-alt' title="Delete"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div id="govtech">GovTech</div>
+    <div id="dwp">PSD Digital Workplace</div>
+  </section>
 </body>
+
 </html>
