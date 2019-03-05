@@ -31,10 +31,10 @@ button{
   border-radius: 6px;
   color: white;
   font-size: 16px;
-  padding: 10px 20px;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
+  border: none;
 
   a{
     text-decoration: none;
@@ -42,8 +42,8 @@ button{
   }
 
   i{
-    font-size: 10px;
-    padding: 2px;
+    font-size: 16px;
+    padding: 5px;
     letter-spacing: 0px;
   }
 
@@ -84,6 +84,8 @@ button{
     flex-wrap: nowrap;
     border-bottom: 1px solid #ebebeb;
     align-items: center;
+    text-decoration: none;
+
   }
   .link-document, .link-header-document{
     flex-basis: 0;

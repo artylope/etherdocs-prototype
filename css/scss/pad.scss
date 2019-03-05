@@ -1,4 +1,29 @@
+#title{
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  font-size: 1.4em;
+  padding: 15px;
+  margin-left: 25px;
+  border-bottom: 1px #e9e9e9 solid;
 
+  h1{
+    margin-left: 10px;
+    color: #555;
+  }
+
+  i{
+    font-size: 1.2em;
+    color: #555;
+  }
+
+  .bxs-file{
+    color: #1D3A6E;
+  }
+}
 #toolbar {
   background: #fff;
   width: 100%;
@@ -12,12 +37,12 @@
   align-items: center;
 
   .left{
-     display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
   }
 
   .right{
