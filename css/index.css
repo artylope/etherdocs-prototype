@@ -1,18 +1,55 @@
-#links {
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+#intro {
+  width: 90%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center; }
+
+h1 {
+  font-size: 3.2em; }
+
+select {
+  max-width: 80px;
+  font-size: 12px; }
+
+button {
+  background-color: #1E3C62;
+  margin-right: 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px; }
+  button a {
+    text-decoration: none;
+    color: white; }
+  button i {
+    font-size: 20px;
+    padding: 2px;
+    letter-spacing: 0px; }
+
+.links-table {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
   background: #fff;
   margin-top: 40px;
-  width: 90%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 1px 5px 2px rgba(173, 173, 173, 0.5);
   -moz-box-shadow: 0px 1px 5px 2px rgba(173, 173, 173, 0.5);
   box-shadow: 0px 1px 5px 2px rgba(173, 173, 173, 0.5); }
-
-.links-table {
-  display: flex;
-  flex-direction: column;
-  text-align: left; }
   .links-table .link-header-row {
     display: flex;
     flex-direction: row;
