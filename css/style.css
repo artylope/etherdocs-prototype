@@ -99,6 +99,9 @@ button {
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px; }
+  button a {
+    text-decoration: none;
+    color: white; }
   button i {
     font-size: 20px;
     padding: 2px;
