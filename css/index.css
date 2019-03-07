@@ -12,7 +12,9 @@ section {
   text-align: center; }
 
 h1 {
-  font-size: 3.2em; }
+  font-size: 3.2em;
+  margin-bottom: .2em;
+}
 
 select {
   max-width: 80px;
